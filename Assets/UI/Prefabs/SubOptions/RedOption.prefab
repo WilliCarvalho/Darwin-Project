@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7985317602467929933
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: objectViewModes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 5351680054019582244, guid: 5a55a51752f4ac145b1e18ad4e7cf9ef,
+        type: 3}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: objName
+      value: Red OBJ
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: btnImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 556b90ce4b5f794429a77555dfac73fd,
+        type: 3}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[0].question
+      value: "Qual parte do cora\xE7\xE3o \xE9 importante?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.data[0]
+      value: Todas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.data[1]
+      value: Nenhuma
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.data[2]
+      value: "S\xF3 o ventr\xEDculo esquerdo"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: objectViewModes.Array.data[0]
+      value: 
+      objectReference: {fileID: 4123364358608711673, guid: 17b14df9ca4d324418d50c87796357e4,
+        type: 3}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: subOptionBtnImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 556b90ce4b5f794429a77555dfac73fd,
+        type: 3}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 706.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687695, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_Name
+      value: RedOption
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931625932182190446, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931625932182190446, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931625932182190446, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3000
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b13079e6f7789374ca38c65a3a9c40da, type: 3}

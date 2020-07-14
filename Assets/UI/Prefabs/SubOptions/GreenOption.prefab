@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5480806746019023987
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[1].answers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: objectViewModes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 3769953183332335980, guid: 5042262929962b349ae9f7d5ef94254f,
+        type: 3}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: btnImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0bd7bc5517a331a49a8a71e889383f48,
+        type: 3}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: objName
+      value: Green OBJ
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[0].question
+      value: "Qual dos extraordin\xE1rios itens listados abaixo, independente das
+        circunst\xE2ncias, \xE9 verde em todos os momentos?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.data[0]
+      value: "a cor de c\xF3digo rgb(0, 255, 0)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.data[1]
+      value: "a cor de c\xF3digo rgb(255, 0, 0)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.data[2]
+      value: "a cor de c\xF3digo rgb(0, 0, 255)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[1].question
+      value: "Qual das seguintes partes do corpo \xE9 verde??"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[1].answers.Array.data[0]
+      value: Olho verde
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: questionList.Array.data[1].answers.Array.data[1]
+      value: Olho castanho
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: objectViewModes.Array.data[0]
+      value: 
+      objectReference: {fileID: 9096510989761343738, guid: 845172581b545254fb1d554d6e17d24b,
+        type: 3}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: subOptionBtnImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0bd7bc5517a331a49a8a71e889383f48,
+        type: 3}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 706.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638866908729687695, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_Name
+      value: GreenOption
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b13079e6f7789374ca38c65a3a9c40da, type: 3}
