@@ -181,6 +181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedOption
       objectReference: {fileID: 0}
+    - target: {fileID: 4307562721546376651, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6931625932182190446, guid: b13079e6f7789374ca38c65a3a9c40da,
         type: 3}
       propertyPath: m_LocalScale.x
