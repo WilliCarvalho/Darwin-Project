@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -25,7 +25,7 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].answers.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -35,22 +35,23 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].question
-      value: "Quest\xE3o 1 do plant mode, timer 40"
+      value: "Through I, blood II reaches the heart and leaves the heart through
+        the III \u201D."
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].timer
-      value: 40
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[0]
-      value: correta A
+      value: Pulmonary arteries, poor in oxygen and aortic vein.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[1]
-      value: incorreta B
+      value: Pulmonary arteries, rich in oxygen and aortic vein.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -60,27 +61,32 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].question
-      value: "Quest\xE3o 2 do plant mode, timer 5"
+      value: '
+
+        In the circulation of mammals, the heart contracts and relaxes
+        rhythmically, functioning as a pump. The blood that is pumped runs throughout
+        the body in a constant sequence. Among the statements below, it is correct
+        to state:'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].timer
-      value: 5
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[0]
-      value: incorreta A
+      value: Arterial blood returns to the heart through the aortic artery.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[1]
-      value: incorreta B
+      value: The pulmonary artery carries blood from the lung to the heart.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[2]
-      value: Correta C
+      value: The vena cava enters the right side of the heart.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -90,17 +96,42 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].question
-      value: "Quest\xE3o 3 do plant mode, timer 10"
+      value: 'The human heart is like the heart of all mammals and has:'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].timer
-      value: 10
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].answers.Array.data[0]
-      value: Correto!
+      value: 'Two cavities: an atrium and a ventricle.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.data[2]
+      value: "\rPulmonary veins, rich in oxygen and aortic artery."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[0].correctAnswerIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[2].answers.Array.data[1]
+      value: 'Four cavities: an atrium and three ventricles.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[2].answers.Array.data[2]
+      value: 'Four cavities: two atria and two ventricles.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[2].correctAnswerIndex
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}

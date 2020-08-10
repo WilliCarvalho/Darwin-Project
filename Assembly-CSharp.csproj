@@ -256,8 +256,8 @@
     <Compile Include="Assets\UI\Resources\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\UI\Scripts\AnswerOption.cs" />
     <Compile Include="Assets\UI\Scripts\AppController.cs" />
+    <Compile Include="Assets\UI\Scripts\BackGrowndScroller.cs" />
     <Compile Include="Assets\UI\Scripts\CategoryOption.cs" />
-    <Compile Include="Assets\UI\Scripts\MovimentacaoDetalhesBack.cs" />
     <Compile Include="Assets\UI\Scripts\ObjectViewModes.cs" />
     <Compile Include="Assets\UI\Scripts\SubOptions.cs" />
     <None Include="Assets\shaders\Toon Gas Station\ToonShading\Shaders\ToonBasicOutline.shader" />
