@@ -3051,15 +3051,15 @@ RectTransform:
   m_GameObject: {fileID: 3953340398598650865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.35961, y: 0.35961, z: 0.35961}
+  m_LocalScale: {x: 0.22268383, y: 0.22268383, z: 0.22268383}
   m_Children: []
   m_Father: {fileID: 3953340400146863766}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00038146973, y: -0.0004119873}
-  m_SizeDelta: {x: 949.4, y: 542.81}
+  m_AnchoredPosition: {x: -0.00030517578, y: 0.0000076293945}
+  m_SizeDelta: {x: 949.4, y: 322.71533}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3953340398598650867
 MonoBehaviour:
@@ -3081,10 +3081,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e85f34c646758894c9eec994762c21d2, type: 3}
+    m_Font: {fileID: 12800000, guid: 6245c4a1c44011c4dbf80ec078d52eba, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 300
     m_Alignment: 4
@@ -3930,10 +3930,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e85f34c646758894c9eec994762c21d2, type: 3}
+    m_Font: {fileID: 12800000, guid: 6245c4a1c44011c4dbf80ec078d52eba, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 300
     m_Alignment: 4
@@ -3985,8 +3985,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030517578, y: -11}
-  m_SizeDelta: {x: 2000.3536, y: 346.27203}
+  m_AnchoredPosition: {x: 0, y: 0.0000076293945}
+  m_SizeDelta: {x: 2000.3536, y: 264.29156}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &3953340399065554116
 PrefabInstance:
@@ -4549,7 +4549,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e85f34c646758894c9eec994762c21d2, type: 3}
+    m_Font: {fileID: 12800000, guid: 6245c4a1c44011c4dbf80ec078d52eba, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 1
@@ -4560,7 +4560,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 0.7
   m_Text: What is the color of the sky when the the clouds are yellow because of
     pollution??
 --- !u!222 &3953340399254287935
@@ -6405,7 +6405,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e85f34c646758894c9eec994762c21d2, type: 3}
+    m_Font: {fileID: 12800000, guid: 6245c4a1c44011c4dbf80ec078d52eba, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 1
@@ -6582,7 +6582,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e85f34c646758894c9eec994762c21d2, type: 3}
+    m_Font: {fileID: 12800000, guid: 6245c4a1c44011c4dbf80ec078d52eba, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 1
@@ -7037,7 +7037,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e85f34c646758894c9eec994762c21d2, type: 3}
+    m_Font: {fileID: 12800000, guid: 6245c4a1c44011c4dbf80ec078d52eba, type: 3}
     m_FontSize: 250
     m_FontStyle: 0
     m_BestFit: 1
@@ -7049,7 +7049,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: home
+  m_Text: Home
 --- !u!222 &3953340399906797001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7093,7 +7093,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 63}
+  m_AnchoredPosition: {x: 0, y: 77}
   m_SizeDelta: {x: 1976.4, y: 186.25821}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3953340399906797008
@@ -7449,7 +7449,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e85f34c646758894c9eec994762c21d2, type: 3}
+    m_Font: {fileID: 12800000, guid: 6245c4a1c44011c4dbf80ec078d52eba, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 1
