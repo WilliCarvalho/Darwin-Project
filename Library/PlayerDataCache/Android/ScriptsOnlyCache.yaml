@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     - HearthRotate
     - ObjectViewModes
     - RotObj
+    - SoundManager
     - SubOptions
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -43,8 +44,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity:
     - Class: 1
@@ -69,6 +68,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 89
@@ -90,61 +95,63 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11954}
     - Class: 114
-      Script: {instanceID: 11978}
+      Script: {instanceID: 11964}
     - Class: 114
-      Script: {instanceID: 11984}
+      Script: {instanceID: 11980}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 11986}
     - Class: 114
-      Script: {instanceID: 11992}
+      Script: {instanceID: 11990}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 12072}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12104}
+      Script: {instanceID: 12074}
     - Class: 114
-      Script: {instanceID: 12274}
+      Script: {instanceID: 12106}
     - Class: 114
-      Script: {instanceID: 12298}
+      Script: {instanceID: 12276}
     - Class: 114
-      Script: {instanceID: 12376}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12492}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 12494}
     - Class: 114
-      Script: {instanceID: 12678}
+      Script: {instanceID: 12654}
     - Class: 114
-      Script: {instanceID: 12770}
+      Script: {instanceID: 12680}
     - Class: 114
-      Script: {instanceID: 12866}
+      Script: {instanceID: 12772}
     - Class: 114
-      Script: {instanceID: 12876}
+      Script: {instanceID: 12868}
     - Class: 114
-      Script: {instanceID: 12930}
+      Script: {instanceID: 12878}
     - Class: 114
-      Script: {instanceID: 12966}
+      Script: {instanceID: 12932}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 12968}
     - Class: 114
-      Script: {instanceID: 13060}
+      Script: {instanceID: 13058}
     - Class: 114
-      Script: {instanceID: 13214}
+      Script: {instanceID: 13062}
     - Class: 114
-      Script: {instanceID: 13296}
+      Script: {instanceID: 13216}
     - Class: 114
-      Script: {instanceID: 13302}
+      Script: {instanceID: 13298}
     - Class: 114
-      Script: {instanceID: 13364}
+      Script: {instanceID: 13304}
     - Class: 114
-      Script: {instanceID: 13408}
+      Script: {instanceID: 13366}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 13410}
     - Class: 114
-      Script: {instanceID: 13806}
+      Script: {instanceID: 13462}
     - Class: 114
-      Script: {instanceID: 13896}
+      Script: {instanceID: 13808}
+    - Class: 114
+      Script: {instanceID: 13898}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -438,6 +445,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundManager
   - hash:
       serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
@@ -1029,4 +1042,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
-  playerPath: C:/Users/Willian Matheus/Desktop/Challenge-Everis/Projetos/Builds/Darwin-WIP-20200819.apk
+  playerPath: C:/Users/Willian Matheus/Desktop/Challenge-Everis/Projetos/Builds/Darwin-WIP-20200822-2.apk

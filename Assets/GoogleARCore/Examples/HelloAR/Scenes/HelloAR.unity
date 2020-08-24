@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44942236, g: 0.49949753, b: 0.575695, a: 1}
+  m_IndirectSpecularColor: {r: 0.44942302, g: 0.49949807, b: 0.57569623, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2814,7 +2814,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -81.799965}
+  m_AnchoredPosition: {x: 0, y: -81.79996}
   m_SizeDelta: {x: 0, y: -175.31628}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3953340398491110832
@@ -4588,7 +4588,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.09156104}
   m_AnchorMax: {x: 1, y: 0.91358536}
-  m_AnchoredPosition: {x: 0, y: -8.999939}
+  m_AnchoredPosition: {x: 0, y: -9.000122}
   m_SizeDelta: {x: 0, y: -18.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3953340399263552537
@@ -5101,8 +5101,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1080.0001, y: 248.00513}
+  m_AnchoredPosition: {x: 26, y: 0}
+  m_SizeDelta: {x: 1497, y: 248.00513}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &3953340399448449868
 MonoBehaviour:
@@ -5977,8 +5977,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -16.5, y: 0}
+  m_SizeDelta: {x: 365, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &3953340399664162608
 RectTransform:
@@ -6923,8 +6923,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -16.5, y: -3500}
-  m_SizeDelta: {x: 364.8506, y: 0}
+  m_AnchoredPosition: {x: 0, y: -3500}
+  m_SizeDelta: {x: 398, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3953340399862825384
 MonoBehaviour:
@@ -6981,7 +6981,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: db08d213c4cc8a9479a70f3900aa113d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
