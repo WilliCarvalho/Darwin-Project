@@ -31,7 +31,7 @@ PrefabInstance:
     - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
         type: 3}
       propertyPath: objName
-      value: Red OBJ
+      value: "Cora\xE7\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
         type: 3}

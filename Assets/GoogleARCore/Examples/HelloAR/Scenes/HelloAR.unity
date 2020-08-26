@@ -2814,7 +2814,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -81.79996}
+  m_AnchoredPosition: {x: 0, y: -81.79995}
   m_SizeDelta: {x: 0, y: -175.31628}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3953340398491110832
@@ -4588,7 +4588,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.09156104}
   m_AnchorMax: {x: 1, y: 0.91358536}
-  m_AnchoredPosition: {x: 0, y: -9.000122}
+  m_AnchoredPosition: {x: 0, y: -9.000114}
   m_SizeDelta: {x: 0, y: -18.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3953340399263552537
@@ -7189,7 +7189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Question:'
+  m_Text: "Quest\xE3o:"
 --- !u!114 &3953340399982778272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7461,7 +7461,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Screen Name
+  m_Text: "Tela de sele\xE7\xE3o"
 --- !u!222 &3953340400131834742
 CanvasRenderer:
   m_ObjectHideFlags: 0
