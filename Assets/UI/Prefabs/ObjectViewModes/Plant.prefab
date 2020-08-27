@@ -35,8 +35,8 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].question
-      value: "Por I, o sangue II chega ao cora\xE7\xE3o e sai do cora\xE7\xE3o pelo
-        III \u201D."
+      value: "Por meio de I, o sangue II chega ao cora\xE7\xE3o e sai deste para
+        os tecidos por meio da III\u201D."
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -46,12 +46,12 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[0]
-      value: "Art\xE9rias pulmonares, pobres em oxig\xEAnio e veia a\xF3rtica."
+      value: "Art\xE9rias pulmonares, pobre em oxig\xEAnio e veia aorta.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[1]
-      value: Pulmonary arteries, rich in oxygen and aortic vein.
+      value: "Art\xE9rias pulmonares, rico em oxig\xEAnio e veia aorta."
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -61,9 +61,8 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].question
-      value: 'In the circulation of mammals, the heart contracts and relaxes rhythmically,
-        functioning as a pump. The blood that is pumped runs throughout the body
-        in a constant sequence. Among the statements below, it is correct to state:'
+      value: "O cora\xE7\xE3o dos humanos \xE9 como o cora\xE7\xE3o de todos os mam\xEDferos
+        e possui:"
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -73,27 +72,28 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[0]
-      value: Arterial blood returns to the heart through the aortic artery.
+      value: "quatro cavidades: dois \xE1trios e dois ventr\xEDculos."
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[1]
-      value: The pulmonary artery carries blood from the lung to the heart.
+      value: "quatro cavidades: um \xE1trio e tr\xEAs ventr\xEDculos."
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[2]
-      value: The vena cava enters the right side of the heart.
+      value: "tr\xEAs cavidades: um \xE1trio e dois ventr\xEDculos"
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].correctAnswerIndex
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].question
-      value: 'The human heart is like the heart of all mammals and has:'
+      value: "Na circula\xE7\xE3o dos mam\xEDferos, o cora\xE7\xE3o contrai e relaxa
+        ritmicamente. Entre as afirmativas abaixo, \xE9 correto afirmar:"
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -103,12 +103,12 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].answers.Array.data[0]
-      value: 'Two cavities: an atrium and a ventricle.'
+      value: "A art\xE9ria pulmonar leva sangue do pulm\xE3o para o cora\xE7\xE3o."
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[2]
-      value: "\rPulmonary veins, rich in oxygen and aortic artery."
+      value: "Veias pulmonares, rico em oxig\xEAnio e art\xE9ria aorta."
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -118,17 +118,18 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].answers.Array.data[1]
-      value: 'Four cavities: an atrium and three ventricles.'
+      value: "As veias cavas entram no lado direito do cora\xE7\xE3o."
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].answers.Array.data[2]
-      value: 'Four cavities: two atria and two ventricles.'
+      value: "O sangue vai do cora\xE7\xE3o ao pulm\xE3o e volta para o cora\xE7\xE3o,
+        na grande circula\xE7\xE3o."
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].correctAnswerIndex
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
