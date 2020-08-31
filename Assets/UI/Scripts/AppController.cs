@@ -118,6 +118,7 @@ public class AppController : MonoBehaviour
         StartCoroutine(DeactivateScreenWithDelay(subOptionsMenu.gameObject));
         objectViewScreenName.text = objName;
         detectedPlaneGenerator.instPlaneObj.SetActive(true);
+        
     }
 
     #endregion
@@ -241,6 +242,7 @@ public class AppController : MonoBehaviour
     public void StartQuiz()
     {
         StartCoroutine(QuizTranstition());
+        FindObjectOfType<SoundManager>().Play_2();
     }
 
     public void CheckAnswer(bool isCorrect, Image answerButtonImage)
@@ -286,6 +288,7 @@ public class AppController : MonoBehaviour
         questionIndex = finalQuestionIndex;
         ClosePausedPanel();
         StartCoroutine(QuizTranstition());
+        FindObjectOfType<SoundManager>().Play_1();
     }
 
     [SerializeField] private GameObject incorrectAnswerOption = null, correctAnswerOption = null;

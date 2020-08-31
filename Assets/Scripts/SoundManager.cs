@@ -4,22 +4,19 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    AudioClip bgm1;
-    AudioClip bgm2;
-    AudioSource audioSource;
+    [SerializeField] AudioClip bgm1;
+    [SerializeField] AudioClip bgm2;
+    [SerializeField] AudioSource audioSource;
 
-    void Mute()
-    {
-
-    }
-
-    void Play_1()
+    public void Play_1()
     {
         audioSource.clip = bgm1;
+        audioSource.Play();
     }
 
-    void Play_2()
+    public void Play_2()
     {
-        audioSource.clip = bgm1;
+        audioSource.clip = bgm2;
+        audioSource.Play();
     }
 }

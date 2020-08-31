@@ -1,4 +1,0 @@
-#Sat Aug 22 14:09:18 BRT 2020
-base.0=C\:\\Users\\Willian Matheus\\Desktop\\Challenge-Everis\\Projetos\\Everis-test\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex
