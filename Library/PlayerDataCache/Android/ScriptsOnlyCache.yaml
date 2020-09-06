@@ -16,7 +16,6 @@ ScriptsOnlyBuild:
     - GoogleARCore.Examples.Common.PointcloudVisualizer
     - GoogleARCore.Examples.Common.RawImageVideoPlayer
     - GoogleARCore.Examples.HelloAR.HelloARController
-    - HearthRotate
     - ObjectViewModes
     - RotObj
     - SoundManager
@@ -40,10 +39,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Mask
     - UnityEngine.UI.RawImage
+    - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity:
     - Class: 1
@@ -83,75 +85,75 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11232}
+      Script: {instanceID: 11238}
     - Class: 114
-      Script: {instanceID: 11480}
+      Script: {instanceID: 11486}
     - Class: 114
-      Script: {instanceID: 11500}
+      Script: {instanceID: 11506}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11690}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 11954}
+      Script: {instanceID: 11826}
     - Class: 114
-      Script: {instanceID: 11964}
+      Script: {instanceID: 11960}
     - Class: 114
-      Script: {instanceID: 11980}
+      Script: {instanceID: 11970}
     - Class: 114
       Script: {instanceID: 11986}
     - Class: 114
-      Script: {instanceID: 11990}
+      Script: {instanceID: 11992}
     - Class: 114
-      Script: {instanceID: 11994}
+      Script: {instanceID: 11996}
     - Class: 114
-      Script: {instanceID: 12010}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 12074}
+      Script: {instanceID: 12016}
     - Class: 114
-      Script: {instanceID: 12106}
+      Script: {instanceID: 12080}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 12112}
     - Class: 114
-      Script: {instanceID: 12300}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12378}
+      Script: {instanceID: 12306}
     - Class: 114
-      Script: {instanceID: 12494}
+      Script: {instanceID: 12384}
     - Class: 114
-      Script: {instanceID: 12654}
+      Script: {instanceID: 12500}
     - Class: 114
-      Script: {instanceID: 12680}
+      Script: {instanceID: 12660}
     - Class: 114
-      Script: {instanceID: 12772}
+      Script: {instanceID: 12686}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 12778}
     - Class: 114
-      Script: {instanceID: 12878}
+      Script: {instanceID: 12874}
     - Class: 114
-      Script: {instanceID: 12932}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 12968}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 13058}
+      Script: {instanceID: 12974}
     - Class: 114
-      Script: {instanceID: 13062}
+      Script: {instanceID: 13064}
     - Class: 114
-      Script: {instanceID: 13216}
-    - Class: 114
-      Script: {instanceID: 13298}
+      Script: {instanceID: 13068}
     - Class: 114
       Script: {instanceID: 13304}
     - Class: 114
-      Script: {instanceID: 13366}
+      Script: {instanceID: 13310}
     - Class: 114
-      Script: {instanceID: 13410}
+      Script: {instanceID: 13372}
     - Class: 114
-      Script: {instanceID: 13462}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13808}
+      Script: {instanceID: 13468}
     - Class: 114
-      Script: {instanceID: 13898}
+      Script: {instanceID: 13814}
+    - Class: 114
+      Script: {instanceID: 13904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -447,7 +449,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 3b61eab118a9025d43ef6e07e6148928
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager
@@ -1042,4 +1044,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
-  playerPath: C:/Users/Willian Matheus/Desktop/Challenge-Everis/Projetos/Builds/Darwin-WIP-20200822-2.apk
+  playerPath: C:/Users/Willian Matheus/Desktop/Challenge-Everis/Projetos/Builds/Darwin-WIP-20200903.apk

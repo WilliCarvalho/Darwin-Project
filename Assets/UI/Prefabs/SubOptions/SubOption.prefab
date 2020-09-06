@@ -29,7 +29,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638866908729687695}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_Children:
@@ -172,10 +172,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4495bbbc40ba90a4d9612e465a08a1ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objName: 
-  mesh: {fileID: 0}
+  objName: "Cora\xE7\xE3o"
+  mesh: {fileID: 5351680054019582244, guid: 5a55a51752f4ac145b1e18ad4e7cf9ef, type: 3}
   meshParent: {fileID: 6931625932182190446}
-  objectViewModes: []
+  objectViewModes:
+  - {fileID: 4123364358608711673, guid: 17b14df9ca4d324418d50c87796357e4, type: 3}
 --- !u!82 &377858994852036584
 AudioSource:
   m_ObjectHideFlags: 0
@@ -365,7 +366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6931625932182190446
 RectTransform:
   m_ObjectHideFlags: 0
@@ -375,7 +376,7 @@ RectTransform:
   m_GameObject: {fileID: 5230603271075689440}
   m_LocalRotation: {x: -0.21504706, y: 0.51664853, z: -0.061067246, w: 0.8264986}
   m_LocalPosition: {x: 0, y: 0, z: -217}
-  m_LocalScale: {x: 0.230325, y: 0.230325, z: 0.230325}
+  m_LocalScale: {x: 3000, y: 3000, z: 3000}
   m_Children: []
   m_Father: {fileID: 1638866908729687692}
   m_RootOrder: 0

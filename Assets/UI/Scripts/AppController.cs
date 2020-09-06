@@ -48,7 +48,7 @@ public class AppController : MonoBehaviour
     {
         aRControllerInstance = FindObjectOfType<HelloARController>();
         detectedPlaneGenerator = FindObjectOfType<DetectedPlaneGenerator>();
-        canvas.renderMode = RenderMode.WorldSpace;
+        //canvas.renderMode = RenderMode.WorldSpace;
     }
 
     public enum GameScreen

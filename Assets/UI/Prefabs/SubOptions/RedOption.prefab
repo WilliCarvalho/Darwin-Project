@@ -1,5 +1,79 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1668261163691816812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3215810101219519414}
+  - component: {fileID: 2134659860992443485}
+  - component: {fileID: 4640425152534923638}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3215810101219519414
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668261163691816812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8678402156853715393}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 87.276, y: -44}
+  m_SizeDelta: {x: 532.24756, y: 532.24756}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2134659860992443485
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668261163691816812}
+  m_CullTransparentMesh: 0
+--- !u!114 &4640425152534923638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668261163691816812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2a5a7d59f2473d941ac4542622bc9484, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1001 &7985317602467929933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7,70 +81,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: questionList.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: questionList.Array.data[0].answers.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: objectViewModes.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 5351680054019582244, guid: 5a55a51752f4ac145b1e18ad4e7cf9ef,
-        type: 3}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: objName
-      value: "Cora\xE7\xE3o"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: btnImage
-      value: 
-      objectReference: {fileID: 21300000, guid: 556b90ce4b5f794429a77555dfac73fd,
-        type: 3}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: questionList.Array.data[0].question
-      value: "Qual parte do cora\xE7\xE3o \xE9 importante?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: questionList.Array.data[0].answers.Array.data[0]
-      value: Todas
-      objectReference: {fileID: 0}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: questionList.Array.data[0].answers.Array.data[1]
-      value: Nenhuma
-      objectReference: {fileID: 0}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: questionList.Array.data[0].answers.Array.data[2]
-      value: "S\xF3 o ventr\xEDculo esquerdo"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: objectViewModes.Array.data[0]
-      value: 
-      objectReference: {fileID: 4123364358608711673, guid: 17b14df9ca4d324418d50c87796357e4,
-        type: 3}
-    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: subOptionBtnImage
-      value: 
-      objectReference: {fileID: 21300000, guid: 556b90ce4b5f794429a77555dfac73fd,
-        type: 3}
     - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -181,25 +191,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedOption
       objectReference: {fileID: 0}
-    - target: {fileID: 4307562721546376651, guid: b13079e6f7789374ca38c65a3a9c40da,
+    - target: {fileID: 7930483699222373729, guid: b13079e6f7789374ca38c65a3a9c40da,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_AnchoredPosition.x
+      value: 103
       objectReference: {fileID: 0}
-    - target: {fileID: 6931625932182190446, guid: b13079e6f7789374ca38c65a3a9c40da,
+    - target: {fileID: 7930483699222373729, guid: b13079e6f7789374ca38c65a3a9c40da,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3000
-      objectReference: {fileID: 0}
-    - target: {fileID: 6931625932182190446, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3000
-      objectReference: {fileID: 0}
-    - target: {fileID: 6931625932182190446, guid: b13079e6f7789374ca38c65a3a9c40da,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3000
+      propertyPath: m_AnchoredPosition.y
+      value: -14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13079e6f7789374ca38c65a3a9c40da, type: 3}
+--- !u!224 &8678402156853715393 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7985317602467929933}
+  m_PrefabAsset: {fileID: 0}
