@@ -15,6 +15,6 @@ public class BackGrowndScroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        backGrownd.uvRect = new Rect(backGrownd.uvRect.x, backGrownd.uvRect.y+Time.deltaTime*0.006f, backGrownd.uvRect.width, backGrownd.uvRect.height);
+        backGrownd.uvRect = new Rect(backGrownd.uvRect.x, backGrownd.uvRect.y+Time.deltaTime*0.05f, backGrownd.uvRect.width, backGrownd.uvRect.height);
     }
 }
