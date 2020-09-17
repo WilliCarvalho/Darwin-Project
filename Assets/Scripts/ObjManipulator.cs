@@ -152,7 +152,8 @@ public class ObjManipulator : MonoBehaviour
 
                                 objUI.container.gameObject.SetActive(true);
                                 pageIndex = 0;
-                                ShowInfoOfSelectedPart(hitInfo.collider.GetComponent<ObjPartData>());
+                                //ShowInfoOfSelectedPart(hitInfo.collider.GetComponent<ObjPartData>());
+                                ShowInfoOfSelectedPart(objParts[selectedIndex].objPart.GetComponent<ObjPartData>());
                             }
                         }
                     }

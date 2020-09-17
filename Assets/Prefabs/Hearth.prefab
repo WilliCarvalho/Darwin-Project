@@ -25,13 +25,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Frente
+  tittle: Ventriculo Esquerdo
   info:
-  - 'Lorem ipsum do ipsum Lorem ipsum do ipsum Lorem ipsum do ipsum '
-  - 'Lorem ipsum do ipsum Lorem ipsum do ipsum Lorem ipsum do ipsum Lorem ipsum do
-    ipsum '
-  - 'Lorem ipsum do ipsum Lorem ipsum do ipsum Lorem ipsum do ipsum Lorem ipsum do
-    ipsum Lorem ipsum do ipsum Lorem ipsum do ipsum '
+  - "\xC9 separado do \xE1trio esquerdo pela v\xE1lvula mitral"
+  - "e bombeia sangue oxigenado para o corpo atrav\xE9s da aorta."
 --- !u!1 &1122718099971455290
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,9 +173,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Aorta
+  tittle: "Art\xE9ria Aorta"
   info:
-  - Aorta info
+  - "Aorta \xE9 a maior e mais importante art\xE9ria de todo o sistema circulat\xF3rio
+    do corpo humano."
+  - "A aorta se inicia no cora\xE7\xE3o, na base do ventr\xEDculo esquerdo, "
+  - "e termina \xE0 altura da quarta v\xE9rtebra lombar, onde se divide nas art\xE9rias
+    il\xEDacas comuns."
+  - "Ela leva sangue oxigenado para todas partes do corpo atrav\xE9s da circula\xE7\xE3o
+    sist\xEAmica."
 --- !u!65 &1942972859578938059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -206,8 +209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tittle: Cima
   info:
-  - "Essa \xE9 a parte de cima"
-  - "parte de cima do cora\xE7\xE3o"
+  - 
+  - 
 --- !u!1 &5892218264139995720
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,10 +296,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Lateral
+  tittle: Atrio Direito
   info:
-  - Lateral info
-  - Parte 2 do lateral info
+  - "\xC1trio direito: recebe fluxo venoso desoxigenado das: veias cava inferior
+    e superior,"
+  - "do seio coron\xE1rio, e das veias card\xEDacas anteriores e menores"
 --- !u!1 &7380222315938121466
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,8 +359,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0501058, y: 1.8157854, z: 1.5683614}
-  m_Center: {x: 0.09216264, y: 0.09215027, z: -0.28418028}
+  m_Size: {x: 2.5127935, y: 2.8978457, z: 2.9150236}
+  m_Center: {x: 0.102176145, y: 0.63318014, z: -0.46925277}
 --- !u!114 &3038898181090209679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,7 +490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Tras
+  tittle: "Ventr\xEDculo "
   info:
   - Parte de tras info
   - tras info parte 2
@@ -536,7 +540,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3e5cab0670607db4d901e326bc5bdd2f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.2959998
+      value: 0.198
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3e5cab0670607db4d901e326bc5bdd2f,
         type: 3}
@@ -657,7 +661,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 1dc0f22855355934d9ed4510cc062b87,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.12948684
+      value: -0.145
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 1dc0f22855355934d9ed4510cc062b87,
         type: 3}
@@ -833,7 +837,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 6ef97732511fbb24a8a660acd7d5b4f2,
         type: 3}
       propertyPath: m_Name
-      value: Lateral_UV-Abrt
+      value: AtrioD_UV-Abrt
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 6ef97732511fbb24a8a660acd7d5b4f2,
         type: 3}
@@ -894,37 +898,37 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.2959998
+      value: 0.198
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08411934
+      value: 0.106
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.16803801
+      value: -0.161
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.056275792
+      value: 0.056256447
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.026177494
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.0014754975
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9984153
+      value: 0.9980721
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
@@ -934,17 +938,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 6.452
+      value: 6.4430003
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 3.0240002
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
@@ -1257,7 +1261,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 325b4cdb78526f644890e547a02ba6c7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.13400002
+      value: -0.129
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 325b4cdb78526f644890e547a02ba6c7,
         type: 3}
@@ -1317,7 +1321,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 325b4cdb78526f644890e547a02ba6c7,
         type: 3}
       propertyPath: m_Name
-      value: Frente_UV-Abrt
+      value: VentEsq_UV-Abrt
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 325b4cdb78526f644890e547a02ba6c7,
         type: 3}

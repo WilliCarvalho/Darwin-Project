@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927543538082730500}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5178283313413193381}
@@ -39,7 +39,7 @@ BoxCollider:
   m_GameObject: {fileID: 1957561552731455863}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.7851307, y: 2.8958237, z: 1.4161752}
   m_Center: {x: 1.3899689, y: -0.49786925, z: -0.3406409}
@@ -67,7 +67,7 @@ BoxCollider:
   m_GameObject: {fileID: 3426378863010688622}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.4344531, y: 3.5275028, z: 0.57348615}
   m_Center: {x: 0.018552653, y: 1.6721516, z: -0.5612718}
@@ -85,7 +85,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tittle: Traqueia
   info:
-  - Teste traqueia
+  - "A traqueia \xE9 o principal org\xE3o responsavel por encaminhar o ar inspirado
+    at\xE9 o pulm\xE3o."
+  - "\xC9 o tubo cartilaginoso e membranoso, localizado entre a laringe"
+  - "e dois tubos curtos, os br\xF4nquios, fortalecido por an\xE9is de cartilagem."
 --- !u!65 &5322135319745387985
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -95,7 +98,7 @@ BoxCollider:
   m_GameObject: {fileID: 5552479038031771730}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 2.2926722, y: 2.9203823, z: 1.0237664}
   m_Center: {x: 0, y: 0.117836, z: -0.085963234}
@@ -111,9 +114,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Frente
+  tittle: "Br\xF4nquios"
   info:
-  - Teste
+  - "Br\xF4nquios s\xE3o condutos cartilaginosos, que se estendem do fim da traqu\xE9ia
+    at\xE9 as ramifica\xE7\xF5es finais."
+  - "Sua fun\xE7\xE3o \xE9 levar o ar para todo o pulm\xE3o at\xE9 os Alv\xE9olos."
 --- !u!1 &5917157848058768586
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,8 +179,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
-  - {fileID: 8887017809020275265}
   - {fileID: 3274677700414124900}
+  - {fileID: 8887017809020275265}
   - {fileID: 6694650842805690091}
   - {fileID: 1862142466220514429}
   - {fileID: 715902832439499875}
@@ -244,7 +249,7 @@ BoxCollider:
   m_GameObject: {fileID: 7688617220119014648}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.654738, y: 2.96322, z: 0.8172865}
   m_Center: {x: -1.259005, y: -0.27621865, z: -0.9542861}
@@ -260,9 +265,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Tras
+  tittle: "Alv\xE9olos"
   info:
-  - Teste tras
+  - "Os alv\xE9olos pulmonares s\xE3o min\xFAsculos sacos a\xE9reos, presentes nos
+    pulm\xF5es,"
+  - "envolvidos por capilares sangu\xEDneos e uma fina membrana. Eles tem a fun\xE7\xE3o
+    de fazer a troca de gases com o sangue."
 --- !u!1 &7856630120320475224
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,7 +295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7856630120320475224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.79}
+  m_LocalPosition: {x: 0, y: 0, z: -1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5178283313413193381}
@@ -429,7 +437,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 646aee74d67448448a424c9c29c71156,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 646aee74d67448448a424c9c29c71156,
         type: 3}
@@ -454,7 +462,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 646aee74d67448448a424c9c29c71156,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 646aee74d67448448a424c9c29c71156,
         type: 3}
@@ -591,7 +599,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9814fc04ea0dce7438377bc5e1b21011,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9814fc04ea0dce7438377bc5e1b21011,
         type: 3}
@@ -626,7 +634,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9814fc04ea0dce7438377bc5e1b21011,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9814fc04ea0dce7438377bc5e1b21011,
         type: 3}

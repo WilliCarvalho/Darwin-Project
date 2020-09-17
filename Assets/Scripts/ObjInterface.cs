@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ObjInterface : MonoBehaviour
 {
     public RectTransform container = null;
     public GameObject undoButton = null;
     public Text tittle = null;
-    public Text info = null;
+    public TextMeshProUGUI info = null;
     public Text infoPage = null;
 
     ObjManipulator objDisplayed;

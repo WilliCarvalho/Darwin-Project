@@ -16,12 +16,21 @@ ScriptsOnlyBuild:
     - GoogleARCore.Examples.Common.PointcloudVisualizer
     - GoogleARCore.Examples.Common.RawImageVideoPlayer
     - GoogleARCore.Examples.HelloAR.HelloARController
+    - ObjInterface
+    - ObjManipulator
+    - ObjPartData
     - ObjectViewModes
     - RotObj
     - SoundManager
     - SubOptions
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -66,6 +75,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -84,76 +95,94 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11238}
+      Script: {instanceID: 11252}
     - Class: 114
-      Script: {instanceID: 11486}
+      Script: {instanceID: 11376}
     - Class: 114
-      Script: {instanceID: 11506}
+      Script: {instanceID: 11502}
     - Class: 114
-      Script: {instanceID: 11560}
+      Script: {instanceID: 11522}
     - Class: 114
-      Script: {instanceID: 11696}
+      Script: {instanceID: 11576}
     - Class: 114
-      Script: {instanceID: 11826}
+      Script: {instanceID: 11712}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11976}
     - Class: 114
       Script: {instanceID: 11986}
     - Class: 114
-      Script: {instanceID: 11992}
+      Script: {instanceID: 12002}
     - Class: 114
-      Script: {instanceID: 11996}
+      Script: {instanceID: 12008}
     - Class: 114
-      Script: {instanceID: 12000}
+      Script: {instanceID: 12012}
     - Class: 114
       Script: {instanceID: 12016}
     - Class: 114
-      Script: {instanceID: 12080}
+      Script: {instanceID: 12032}
     - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 12096}
     - Class: 114
-      Script: {instanceID: 12282}
+      Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 12306}
+      Script: {instanceID: 12136}
     - Class: 114
-      Script: {instanceID: 12384}
+      Script: {instanceID: 12298}
     - Class: 114
-      Script: {instanceID: 12500}
+      Script: {instanceID: 12322}
     - Class: 114
-      Script: {instanceID: 12660}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 12686}
+      Script: {instanceID: 12516}
     - Class: 114
-      Script: {instanceID: 12778}
+      Script: {instanceID: 12676}
     - Class: 114
-      Script: {instanceID: 12874}
+      Script: {instanceID: 12702}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 12794}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12890}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12900}
     - Class: 114
-      Script: {instanceID: 13064}
+      Script: {instanceID: 12954}
     - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 12958}
     - Class: 114
-      Script: {instanceID: 13304}
+      Script: {instanceID: 12976}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 12990}
     - Class: 114
-      Script: {instanceID: 13372}
+      Script: {instanceID: 13080}
     - Class: 114
-      Script: {instanceID: 13416}
+      Script: {instanceID: 13084}
     - Class: 114
-      Script: {instanceID: 13468}
+      Script: {instanceID: 13234}
     - Class: 114
-      Script: {instanceID: 13814}
+      Script: {instanceID: 13320}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 13326}
+    - Class: 114
+      Script: {instanceID: 13388}
+    - Class: 114
+      Script: {instanceID: 13432}
+    - Class: 114
+      Script: {instanceID: 13484}
+    - Class: 114
+      Script: {instanceID: 13544}
+    - Class: 114
+      Script: {instanceID: 13678}
+    - Class: 114
+      Script: {instanceID: 13832}
+    - Class: 114
+      Script: {instanceID: 13870}
+    - Class: 114
+      Script: {instanceID: 13924}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -213,6 +242,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore
     className: Anchor
+  - hash:
+      serializedVersion: 2
+      Hash: 6978db23ef30870e7f1cb4ed7c938524
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjPartData
   - hash:
       serializedVersion: 2
       Hash: 5bd9a19c7b5f76c563418e28f48a561b
@@ -779,7 +814,7 @@ ScriptsOnlyBuild:
     className: ARCoreSessionConfig
   - hash:
       serializedVersion: 2
-      Hash: 841316149151cba70c98a3c762c46315
+      Hash: 7ef00d4230885e96161a4b8616baba23
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AppController
@@ -917,6 +952,12 @@ ScriptsOnlyBuild:
     className: NetworkAnimator
   - hash:
       serializedVersion: 2
+      Hash: cc67160c6da96e361e99eb659e622973
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjManipulator
+  - hash:
+      serializedVersion: 2
       Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1019,6 +1060,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: 83549f82e2ab202f82558babc0474653
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjInterface
+  - hash:
+      serializedVersion: 2
       Hash: 7072231382eb3c4871b3dd75ad0227e1
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1044,4 +1091,5 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
-  playerPath: C:/Users/Willian Matheus/Desktop/Challenge-Everis/Projetos/Builds/Darwin-WIP-20200903.apk
+  playerPath: C:/Users/Willian Matheus/Desktop/Challenge-Everis/Projetos/Builds/Darwin-WIP-20200917
+    - 2.apk

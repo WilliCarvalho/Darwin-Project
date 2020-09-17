@@ -48,7 +48,6 @@ public class SubOptions : MonoBehaviour
     public void SetObjInstance()
     {
         FindObjectOfType<HelloARController>().GameObjectHorizontalPlanePrefab = mesh;
-        Debug.Log("To entrando aqui");
     }
 }
 
