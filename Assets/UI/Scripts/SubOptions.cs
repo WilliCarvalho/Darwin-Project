@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using GoogleARCore.Examples.Common;
+using GoogleARCore.Examples.HelloAR;
 
 public class SubOptions : MonoBehaviour
 {
@@ -21,7 +22,6 @@ public class SubOptions : MonoBehaviour
     {
         appController = FindObjectOfType<AppController>();
         GetComponentInChildren<Text>().text = objName;
-        Instantiate(mesh, meshParent);
     }
 
     public void GoToObjectView()
@@ -32,7 +32,7 @@ public class SubOptions : MonoBehaviour
             appController.CreateDropMenuList(objectViewModes[i]);
         }
         appController.UpdateObjectViewMode(objectViewModes[0].GetComponent<ObjectViewModes>().viewModeName, objectViewModes[0].GetComponent<ObjectViewModes>());
-        appController.InstantiateObjectMesh(mesh);
+        //appController.InstantiateObjectMesh(mesh);
         appController.GoToObjectViewScreen(objName);
 
         PlaneDiscoveryGuide.HandAnimationAR = true;
@@ -43,6 +43,12 @@ public class SubOptions : MonoBehaviour
         GetComponent<Button>().interactable = false;
         yield return new WaitForSeconds(0.5f);
         GetComponent<Button>().interactable = true;
+    }
+
+    public void SetObjInstance()
+    {
+        FindObjectOfType<HelloARController>().GameObjectHorizontalPlanePrefab = mesh;
+        Debug.Log("To entrando aqui");
     }
 }
 

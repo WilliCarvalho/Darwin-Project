@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44942236, g: 0.49949753, b: 0.575695, a: 1}
+  m_IndirectSpecularColor: {r: 0.44942302, g: 0.49949807, b: 0.57569623, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1064,8 +1064,7 @@ MonoBehaviour:
     type: 3}
   GameObjectHorizontalPlanePrefab: {fileID: 7380222315938121466, guid: 7a23dea397b40c2428f94e0053021cdc,
     type: 3}
-  GameObjectPointPrefab: {fileID: 7380222315938121466, guid: 7a23dea397b40c2428f94e0053021cdc,
-    type: 3}
+  GameObjectPointPrefab: {fileID: 0}
 --- !u!1001 &688001843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4538,7 +4537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3953340398986716446
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7167,8 +7166,9 @@ MonoBehaviour:
   objectViewMenu: {fileID: 3953340399685445113}
   objectViewTopBar: {fileID: 3953340399314463893}
   objectViewBottomBar: {fileID: 3953340398513472903}
-  objectMeshRectTransform: {fileID: 3953340398986716446}
+  objectMeshRectTransform: {fileID: 0}
   canvas: {fileID: 3953340400280783368}
+  objInfoCanvas: {fileID: 696809921}
   objectViewDropMenu: {fileID: 3953340398271434838}
   dropMenuItensParent: {fileID: 3953340399308221937}
   objectViewScreenName: {fileID: 3953340399053950800}
@@ -7177,7 +7177,7 @@ MonoBehaviour:
   instButtonsInScene: []
   gameScreen: 0
   viewModes: []
-  objectMeshPosition: {fileID: 3953340398986716446}
+  objectMeshPosition: {fileID: 0}
   quizScreen: {fileID: 3953340399310221658}
   transitionPanel: {fileID: 3953340399862825383}
   timerUI: {fileID: 3953340398306656205}

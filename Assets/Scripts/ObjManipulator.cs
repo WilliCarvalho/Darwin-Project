@@ -34,6 +34,7 @@ public class ObjManipulator : MonoBehaviour
             {
                 objParts[i].originalPosition = objParts[i].objPart.transform.position;
                 objParts[i].objPart.transform.position = objParts[i].newPosition.position;
+                objParts[i].objPart.GetComponent<Collider>().enabled = true;
             }
         }
     }
@@ -45,6 +46,7 @@ public class ObjManipulator : MonoBehaviour
             for (int i = 0; i < objParts.Length; i++)
             {
                 objParts[i].objPart.transform.position = objParts[i].originalPosition;
+                objParts[i].objPart.GetComponent<Collider>().enabled = false;
             }
         }
 
@@ -143,6 +145,7 @@ public class ObjManipulator : MonoBehaviour
                                     }
                                 }
 
+                                objParts[selectedIndex].objPart.SetActive(true);
                                 // move selected part to screen's center
                                 objParts[selectedIndex].objPart.transform.position = centeredPosition;
 

@@ -19,4 +19,7 @@ public class RotObj : MonoBehaviour
          * "transform.Rotate(Camera.main.up, -rotX, Space.World);"
          */
     }
+
+
+
 }

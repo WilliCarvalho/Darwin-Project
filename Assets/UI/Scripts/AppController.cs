@@ -22,6 +22,7 @@ public class AppController : MonoBehaviour
     [SerializeField] private RectTransform objectViewBottomBar = null;
     [SerializeField] private RectTransform objectMeshRectTransform = null;
     [SerializeField] private Canvas canvas = null;
+    public GameObject objInfoCanvas;
 
     [Space(5)]
     [Header("OBJECT VIEW SCREEN:")]
@@ -83,6 +84,7 @@ public class AppController : MonoBehaviour
 
             case GameScreen.objectViewMenu:
                 staticBG.SetActive(true);
+                objInfoCanvas.SetActive(false);
                 Invoke("DestroyOldDropMenuItens", 0.45f);
                 Destroy(currentObjectMesh, 0.45f);
                 gameScreen = GameScreen.subOptionsMenu;
