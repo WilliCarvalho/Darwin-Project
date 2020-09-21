@@ -16,7 +16,6 @@ public class ObjManipulator : MonoBehaviour
 
     #region ObjExtensor
     int selectedIndex;
-    Vector3 centeredPosition = Vector3.zero;
     bool isSeparated;
     [SerializeField] ObjPart[] objParts = null;
 
@@ -92,7 +91,7 @@ public class ObjManipulator : MonoBehaviour
 
         if (isScaling)
         {
-            float scaleValue = 0.5f * Time.deltaTime;
+            float scaleValue = 0.2f * Time.deltaTime;
             if (startDistance > Vector2.Distance(touch0Pos, touch1Pos))
             {
                 //scale down
@@ -145,8 +144,8 @@ public class ObjManipulator : MonoBehaviour
                                 }
 
                                 objParts[selectedIndex].objPart.SetActive(true);
-                                // move selected part to screen's center
-                                objParts[selectedIndex].objPart.transform.position = centeredPosition;
+                                // move selected part to center
+                                objParts[selectedIndex].objPart.transform.position = transform.position;
 
 
                                 objUI.container.gameObject.SetActive(true);
