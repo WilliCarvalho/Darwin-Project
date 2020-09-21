@@ -6,9 +6,12 @@ using UnityEngine.UI;
 public class ObjManipulator : MonoBehaviour
 {
     ObjInterface objUI;
+    AppController appController;
+
     private void Start()
     {
         objUI = FindObjectOfType<ObjInterface>();
+        appController = FindObjectOfType<AppController>();
     }
 
     #region ObjExtensor
@@ -126,12 +129,8 @@ public class ObjManipulator : MonoBehaviour
                         }
                         else
                         {
-                            if(selectedPart == null)
+                            if(selectedPart == null && appController.canSelectObjPart)
                             {
-                                // was being used for ReuniteParts(); 
-                                //-> instead use this to zoom in obj's part
-
-
                                 // hide other parts
                                 for (int i = 0; i < objParts.Length; i++)
                                 {

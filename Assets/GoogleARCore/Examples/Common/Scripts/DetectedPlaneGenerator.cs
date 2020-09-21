@@ -55,7 +55,7 @@ namespace GoogleARCore.Examples.Common
             // Check that motion tracking is tracking.
             if (Session.Status != SessionStatus.Tracking || appController.gameScreen != AppController.GameScreen.objectViewMenu)
             {
-                if(instPlaneObj.activeSelf && instPlaneObj != null)
+                if(instPlaneObj != null && instPlaneObj.activeSelf)
                 {
                     instPlaneObj.SetActive(false);
                 }

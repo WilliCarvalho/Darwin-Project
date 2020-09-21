@@ -36,6 +36,7 @@ public class AppController : MonoBehaviour
     [HideInInspector] public List<GameObject> instButtonsInScene; // meshes options
     private HelloARController aRControllerInstance;
     private DetectedPlaneGenerator detectedPlaneGenerator;
+    public bool canSelectObjPart = true;
 
     private void Awake()
     {
@@ -243,8 +244,10 @@ public class AppController : MonoBehaviour
 
     public void StartQuiz()
     {
+        FindObjectOfType<ObjManipulator>().GoBack();
         StartCoroutine(QuizTranstition());
         FindObjectOfType<SoundManager>().Play_2();
+        canSelectObjPart = false;
     }
 
     public void CheckAnswer(bool isCorrect, Image answerButtonImage)
@@ -291,6 +294,7 @@ public class AppController : MonoBehaviour
         ClosePausedPanel();
         StartCoroutine(QuizTranstition());
         FindObjectOfType<SoundManager>().Play_1();
+        canSelectObjPart = true;
     }
 
     [SerializeField] private GameObject incorrectAnswerOption = null, correctAnswerOption = null;
