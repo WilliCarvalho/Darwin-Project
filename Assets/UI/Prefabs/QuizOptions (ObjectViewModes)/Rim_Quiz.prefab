@@ -45,7 +45,7 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: viewModeName
-      value: Plant Mode
+      value: Rim
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}

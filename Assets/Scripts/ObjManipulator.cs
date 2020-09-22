@@ -14,29 +14,25 @@ public class ObjManipulator : MonoBehaviour
         appController = FindObjectOfType<AppController>();
     }
 
-    #region ObjExtensor
+
     int selectedIndex;
     bool isSeparated;
-    [SerializeField] ObjPart[] objParts = null;
-
-    [System.Serializable]
-    public class ObjPart
-    {
-        public GameObject objPart;
-        public Transform newPosition;
-        [HideInInspector] public Vector3 originalPosition;
-    }
+    public GameObject closedObj;
+    public GameObject openedObj;
+    [SerializeField] GameObject[] openedObjParts = null;
+    private Vector3 selectedPartOriginalPos;
+    public LayerMask layerMask;
 
     public void SeparateParts()
     {
         if(!isSeparated)
         {
             isSeparated = true;
-            for (int i = 0; i < objParts.Length; i++)
+            closedObj.SetActive(false);
+            openedObj.SetActive(true);
+            for (int i = 0; i < openedObjParts.Length; i++)
             {
-                objParts[i].originalPosition = objParts[i].objPart.transform.position;
-                objParts[i].objPart.transform.position = objParts[i].newPosition.position;
-                objParts[i].objPart.GetComponent<Collider>().enabled = true;
+                openedObjParts[i].GetComponent<Collider>().enabled = true;
             }
         }
     }
@@ -45,22 +41,22 @@ public class ObjManipulator : MonoBehaviour
         if(isSeparated)
         {
             isSeparated = false;
-            for (int i = 0; i < objParts.Length; i++)
+            for (int i = 0; i < openedObjParts.Length; i++)
             {
-                objParts[i].objPart.transform.position = objParts[i].originalPosition;
-                objParts[i].objPart.GetComponent<Collider>().enabled = false;
+                openedObjParts[i].GetComponent<Collider>().enabled = false;
             }
+            openedObj.SetActive(false);
+            closedObj.SetActive(true);
         }
 
     }
-    #endregion
 
-    #region ObjManipulation
+
+
     bool isScaling;
     Vector2 touch0Pos;
     Vector2 touch1Pos;
     float startDistance;
-    #endregion
 
     bool canSelect;
 
@@ -91,11 +87,14 @@ public class ObjManipulator : MonoBehaviour
 
         if (isScaling)
         {
-            float scaleValue = 0.2f * Time.deltaTime;
+            float scaleValue = 0.02f * Time.deltaTime;
             if (startDistance > Vector2.Distance(touch0Pos, touch1Pos))
             {
                 //scale down
-                transform.localScale = new Vector3(transform.localScale.x - scaleValue, transform.localScale.y - scaleValue, transform.localScale.z - scaleValue);
+                if(transform.localScale.x > 0)
+                {
+                    transform.localScale = new Vector3(transform.localScale.x - scaleValue, transform.localScale.y - scaleValue, transform.localScale.z - scaleValue);
+                }
             }
             else if (startDistance < Vector2.Distance(touch0Pos, touch1Pos))
             {
@@ -106,14 +105,14 @@ public class ObjManipulator : MonoBehaviour
         #endregion
 
 
-        #region Select/Expand Obj/Part 
+        #region Select/Expand - Obj/Part 
         if (Input.GetMouseButtonDown(0))
         {
             if (Input.touchCount < 2)
             {
                 var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hitInfo;
-                if (Physics.Raycast(ray, out hitInfo))
+                if (Physics.Raycast(ray, out hitInfo, layerMask))
                 {
                     if (!canSelect)
                     {
@@ -128,14 +127,15 @@ public class ObjManipulator : MonoBehaviour
                         }
                         else
                         {
-                            if(selectedPart == null && appController.canSelectObjPart)
+                            // SELECT SINGLE OBJ PART:
+                            if (selectedPart == null && appController.canSelectObjPart)
                             {
                                 // hide other parts
-                                for (int i = 0; i < objParts.Length; i++)
+                                for (int i = 0; i < openedObjParts.Length; i++)
                                 {
-                                    if(objParts[i].objPart != hitInfo.collider.gameObject)
+                                    if (openedObjParts[i] != hitInfo.collider.gameObject)
                                     {
-                                        objParts[i].objPart.SetActive(false);
+                                        openedObjParts[i].SetActive(false);
                                     }
                                     else
                                     {
@@ -143,17 +143,49 @@ public class ObjManipulator : MonoBehaviour
                                     }
                                 }
 
-                                objParts[selectedIndex].objPart.SetActive(true);
+                                openedObjParts[selectedIndex].SetActive(true);
+
                                 // move selected part to center
-                                objParts[selectedIndex].objPart.transform.position = transform.position;
+                                selectedPartOriginalPos = openedObjParts[selectedIndex].transform.position;
+                                openedObjParts[selectedIndex].transform.position = transform.position;
 
 
                                 objUI.container.gameObject.SetActive(true);
                                 pageIndex = 0;
                                 //ShowInfoOfSelectedPart(hitInfo.collider.GetComponent<ObjPartData>());
-                                ShowInfoOfSelectedPart(objParts[selectedIndex].objPart.GetComponent<ObjPartData>());
+                                ShowInfoOfSelectedPart(openedObjParts[selectedIndex].GetComponent<ObjPartData>());
+
+                                #region OLD_METHOD
+                                /*
+                                if(selectedPart == null && appController.canSelectObjPart)
+                                {
+                                    // hide other parts
+                                    for (int i = 0; i < objParts.Length; i++)
+                                    {
+                                        if(objParts[i].objPart != hitInfo.collider.gameObject)
+                                        {
+                                            objParts[i].objPart.SetActive(false);
+                                        }
+                                        else
+                                        {
+                                            selectedIndex = i;
+                                        }
+                                    }
+
+                                    objParts[selectedIndex].objPart.SetActive(true);
+
+                                    // move selected part to center
+                                    objParts[selectedIndex].objPart.transform.position = transform.position;
+
+
+                                    objUI.container.gameObject.SetActive(true);
+                                    pageIndex = 0;
+                                    //ShowInfoOfSelectedPart(hitInfo.collider.GetComponent<ObjPartData>());
+                                    ShowInfoOfSelectedPart(objParts[selectedIndex].objPart.GetComponent<ObjPartData>());
+                                    */
+                                #endregion
                             }
-                        }
+                    }
                     }
                 }
             }
@@ -202,12 +234,12 @@ public class ObjManipulator : MonoBehaviour
     {
         objUI.container.gameObject.SetActive(false);
         selectedPart = null;
-        objParts[selectedIndex].objPart.transform.position = objParts[selectedIndex].newPosition.position;
+        openedObjParts[selectedIndex].transform.position = selectedPartOriginalPos;
 
         // Show other parts
-        for (int i = 0; i < objParts.Length; i++)
+        for (int i = 0; i < openedObjParts.Length; i++)
         {
-            objParts[i].objPart.SetActive(true);
+            openedObjParts[i].SetActive(true);
         }
     }
     public void NextInfoPage()
