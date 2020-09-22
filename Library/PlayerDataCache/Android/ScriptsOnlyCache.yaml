@@ -98,91 +98,91 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11252}
+      Script: {instanceID: 11254}
     - Class: 114
-      Script: {instanceID: 11376}
+      Script: {instanceID: 11378}
     - Class: 114
-      Script: {instanceID: 11502}
+      Script: {instanceID: 11504}
     - Class: 114
-      Script: {instanceID: 11522}
+      Script: {instanceID: 11524}
     - Class: 114
-      Script: {instanceID: 11576}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 11712}
+      Script: {instanceID: 11714}
     - Class: 114
-      Script: {instanceID: 11842}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 11976}
+      Script: {instanceID: 11978}
     - Class: 114
-      Script: {instanceID: 11986}
+      Script: {instanceID: 11988}
     - Class: 114
-      Script: {instanceID: 12002}
+      Script: {instanceID: 12004}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12012}
+      Script: {instanceID: 12014}
     - Class: 114
-      Script: {instanceID: 12016}
+      Script: {instanceID: 12018}
     - Class: 114
-      Script: {instanceID: 12032}
+      Script: {instanceID: 12034}
     - Class: 114
-      Script: {instanceID: 12096}
+      Script: {instanceID: 12098}
     - Class: 114
-      Script: {instanceID: 12128}
+      Script: {instanceID: 12130}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12138}
     - Class: 114
-      Script: {instanceID: 12298}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12322}
+      Script: {instanceID: 12324}
     - Class: 114
-      Script: {instanceID: 12400}
+      Script: {instanceID: 12402}
     - Class: 114
-      Script: {instanceID: 12516}
+      Script: {instanceID: 12518}
     - Class: 114
-      Script: {instanceID: 12676}
+      Script: {instanceID: 12678}
     - Class: 114
-      Script: {instanceID: 12702}
+      Script: {instanceID: 12704}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 12890}
+      Script: {instanceID: 12892}
     - Class: 114
-      Script: {instanceID: 12900}
+      Script: {instanceID: 12902}
     - Class: 114
-      Script: {instanceID: 12954}
+      Script: {instanceID: 12956}
     - Class: 114
-      Script: {instanceID: 12958}
+      Script: {instanceID: 12960}
     - Class: 114
-      Script: {instanceID: 12976}
+      Script: {instanceID: 12978}
     - Class: 114
-      Script: {instanceID: 12990}
+      Script: {instanceID: 12992}
     - Class: 114
-      Script: {instanceID: 13080}
+      Script: {instanceID: 13082}
     - Class: 114
-      Script: {instanceID: 13084}
+      Script: {instanceID: 13086}
     - Class: 114
-      Script: {instanceID: 13234}
+      Script: {instanceID: 13236}
     - Class: 114
-      Script: {instanceID: 13320}
+      Script: {instanceID: 13322}
     - Class: 114
-      Script: {instanceID: 13326}
+      Script: {instanceID: 13328}
     - Class: 114
-      Script: {instanceID: 13388}
+      Script: {instanceID: 13390}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13434}
     - Class: 114
-      Script: {instanceID: 13484}
+      Script: {instanceID: 13486}
     - Class: 114
-      Script: {instanceID: 13544}
+      Script: {instanceID: 13546}
     - Class: 114
-      Script: {instanceID: 13678}
+      Script: {instanceID: 13680}
     - Class: 114
-      Script: {instanceID: 13832}
+      Script: {instanceID: 13834}
     - Class: 114
-      Script: {instanceID: 13870}
+      Script: {instanceID: 13872}
     - Class: 114
-      Script: {instanceID: 13924}
+      Script: {instanceID: 13926}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -814,7 +814,7 @@ ScriptsOnlyBuild:
     className: ARCoreSessionConfig
   - hash:
       serializedVersion: 2
-      Hash: 7ef00d4230885e96161a4b8616baba23
+      Hash: 444f61cd3c41f97c6809c395be5e2872
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AppController
@@ -1091,5 +1091,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
-  playerPath: C:/Users/Willian Matheus/Desktop/Challenge-Everis/Projetos/Builds/Darwin-WIP-20200917
-    - 2.apk
+  playerPath: C:/Users/Willian Matheus/Desktop/Challenge-Everis/Projetos/Builds/Darwin-WIP-20200921.apk
