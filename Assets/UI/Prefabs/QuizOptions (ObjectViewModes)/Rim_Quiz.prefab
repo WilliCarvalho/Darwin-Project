@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &301343452745781898
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[1].answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[2].answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[3].answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[4].answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[5].answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: viewModeName
+      value: Plant Mode
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[0].question
+      value: "O Rim \xE9 o que?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[0].timer
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.data[0]
+      value: "Um org\xE3o"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.data[1]
+      value: Um brinquedo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[0].correctAnswerNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[1].question
+      value: Qual a principal importancia do Rim
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[1].timer
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[1].answers.Array.data[0]
+      value: "Ajudar a ingerir brbidas alc\xF3licas"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[1].answers.Array.data[1]
+      value: "Auxiliar na forma\xE7\xE3o da Urina"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[1].answers.Array.data[2]
+      value: "Fazer voc\xEA feliz"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[1].correctAnswerIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[2].question
+      value: "Cada \xE1trio comunica-se com o ventr\xEDculo por meio de um orif\xEDcio
+        que cont\xE9m uma valva que impede o retorno de sangue de uma cavidade para
+        outra. O nome dessa valva \xE9:"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[2].timer
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[2].answers.Array.data[0]
+      value: atrioventricular.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[0].answers.Array.data[2]
+      value: Um sistema digestivo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[0].correctAnswerIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[2].answers.Array.data[1]
+      value: pulmonar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[2].answers.Array.data[2]
+      value: semilunar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[2].correctAnswerIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[3].question
+      value: "Cada \xE1trio comunica-se com o ventr\xEDculo por meio de um orif\xEDcio
+        que cont\xE9m uma valva que impede o retorno de sangue de uma cavidade para
+        outra. O nome dessa valva \xE9:"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[3].timer
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[3].answers.Array.data[0]
+      value: atrioventricular.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[3].answers.Array.data[1]
+      value: pulmonar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[3].answers.Array.data[2]
+      value: semilunar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[3].correctAnswerIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[4].question
+      value: "Cada \xE1trio comunica-se com o ventr\xEDculo por meio de um orif\xEDcio
+        que cont\xE9m uma valva que impede o retorno de sangue de uma cavidade para
+        outra. O nome dessa valva \xE9:"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[4].timer
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[4].answers.Array.data[0]
+      value: atrioventricular.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[4].answers.Array.data[1]
+      value: pulmonar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[4].answers.Array.data[2]
+      value: semilunar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[4].correctAnswerIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[5].question
+      value: "Cada \xE1trio comunica-se com o ventr\xEDculo por meio de um orif\xEDcio
+        que cont\xE9m uma valva que impede o retorno de sangue de uma cavidade para
+        outra. O nome dessa valva \xE9:"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[5].timer
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[5].answers.Array.data[0]
+      value: atrioventricular.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[5].answers.Array.data[1]
+      value: pulmonar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[5].answers.Array.data[2]
+      value: semilunar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: questionList.Array.data[5].correctAnswerIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 575.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 185.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707314, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402185415162707315, guid: 2515b031cf3a43e44acdef8c69e840b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Rim_Quiz
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2515b031cf3a43e44acdef8c69e840b0, type: 3}

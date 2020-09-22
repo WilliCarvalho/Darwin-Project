@@ -895,6 +895,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6957699919118677688}
     m_Modifications:
+    - target: {fileID: -4497349852526577991, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 5821403115363929063, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -989,6 +995,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7926027127148665214, guid: b8983df2d1dc38b4ab727dc7c6c67fd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8983df2d1dc38b4ab727dc7c6c67fd2, type: 3}
