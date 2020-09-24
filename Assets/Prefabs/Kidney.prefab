@@ -25,8 +25,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: 
-  info: []
+  tittle: Rim
+  info:
+  - "Em quantidade de 2 (dois), eles est\xE3o localizados imediatamente abaixo da
+    caixa tor\xE1cica, um em cada lado da coluna vertebral. Todos os dias, os dois
+    rins filtram cerca de 120 a 150 litros de sangue para produzir cerca de 1 a 2
+    litros de urina."
 --- !u!65 &2441646549832721480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52,8 +56,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: 
-  info: []
+  tittle: "Art\xE9ria renal"
+  info:
+  - "A art\xE9ria que vasculariza o rim. Existem em n\xFAmero de duas, uma para cada
+    rim que nascem da art\xE9ria aorta e se dirigem at\xE9 ao rim atrav\xE9s do seu
+    hilo."
 --- !u!65 &3516563750176609085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79,8 +86,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: 
-  info: []
+  tittle: Rim
+  info:
+  - "Em quantidade de 2 (dois), eles est\xE3o localizados imediatamente abaixo da
+    caixa tor\xE1cica, um em cada lado da coluna vertebral. Todos os dias, os dois
+    rins filtram cerca de 120 a 150 litros de sangue para produzir cerca de 1 a 2
+    litros de urina."
 --- !u!1 &4419445512538366841
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,8 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: 
-  info: []
+  tittle: Pelve Renal
+  info:
+  - "A por\xE7\xE3o proximal do ureter no rim que \xE9 dilatada em forma de funil."
 --- !u!1 &6446510989559822669
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,8 +229,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: 
-  info: []
+  tittle: Veia renal
+  info:
+  - "A fun\xE7\xE3o da veia renal \xE9 receber o sangue ap\xF3s a filtra\xE7\xE3o
+    levada a cabo pelo rim e drena para o sistema da veia cava inferior."
 --- !u!1 &8395755421808299825
 GameObject:
   m_ObjectHideFlags: 0

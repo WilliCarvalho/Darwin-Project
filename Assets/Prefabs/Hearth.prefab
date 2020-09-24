@@ -115,8 +115,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tittle: "Art\xE9ria Esquerda"
   info:
-  - 'Lorem ipsum do ipsum Lorem ipsum do ipsum Lorem ipsum do ipsum '
-  - 'Lorem ipsum do ipsum '
+  - "A art\xE9ria coron\xE1ria esquerda, deixa a aorta acima da semilunar esquerda
+    da v\xE1lvula a\xF3rtica."
+  - " Tipicamente corre cerca de 1 a 25 mm e ent\xE3o se bifurca entre art\xE9ria
+    descendente anterior e art\xE9ria circunflexa esquerda."
 --- !u!65 &4106250735823747856
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -144,8 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tittle: Atrio Direito
   info:
-  - "\xC1trio direito: recebe fluxo venoso desoxigenado das: veias cava inferior
-    e superior,"
+  - 'Recebe fluxo venoso desoxigenado das: veias cava inferior e superior,'
   - "do seio coron\xE1rio, e das veias card\xEDacas anteriores e menores"
 --- !u!65 &1676074676511224605
 BoxCollider:
@@ -201,9 +202,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: "Art\xE9ria Direita"
+  tittle: "Art\xE9ria pulmonar"
   info:
-  - dirrrrretia
+  - "O tronco da art\xE9ria pulmonar \xE9 a origem da Pequena circula\xE7\xE3o|circula\xE7\xE3o
+    pulmonar. Se origina do ventr\xEDculo direito do cora\xE7\xE3o, de quem recebe
+    o (sangue venoso) que deve ser dirigido aos (pulm\xF5es) para oxigena\xE7\xE3o."
 --- !u!65 &3180784891784136017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -348,10 +351,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Cima
+  tittle: Atrio Esquerdo
   info:
-  - 
-  - 
+  - "\xC9 respons\xE1vel por coletar o sangue oxigenado que volta ao cora\xE7\xE3o
+    pelas veias pulmonares."
+  - "Passa o volume sangu\xEDneo ao ventr\xEDculo esquerdo, no momento em que o \xE1trio
+    se contrai e a valva mitral se abre."
 --- !u!65 &707092247857424904
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -379,9 +384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tittle: "Ventr\xEDculo "
   info:
-  - Parte de tras info
-  - tras info parte 2
-  - "tras do cora\xE7\xE3o info parte 2"
+  - "Cora\xE7\xE3o"
 --- !u!1001 &179469471019221936
 PrefabInstance:
   m_ObjectHideFlags: 0
