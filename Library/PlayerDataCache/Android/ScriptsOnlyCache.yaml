@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AboutPanel
     - AnswerOption
     - AppController
     - BackGrowndScroller
@@ -23,6 +24,7 @@ ScriptsOnlyBuild:
     - RotObj
     - SoundManager
     - SubOptions
+    - TutorialPanel
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -98,91 +100,95 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11254}
+      Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11378}
+      Script: {instanceID: 11436}
     - Class: 114
-      Script: {instanceID: 11504}
+      Script: {instanceID: 11562}
     - Class: 114
-      Script: {instanceID: 11524}
+      Script: {instanceID: 11582}
     - Class: 114
-      Script: {instanceID: 11578}
+      Script: {instanceID: 11636}
     - Class: 114
-      Script: {instanceID: 11714}
+      Script: {instanceID: 11772}
     - Class: 114
-      Script: {instanceID: 11844}
+      Script: {instanceID: 11902}
     - Class: 114
-      Script: {instanceID: 11978}
+      Script: {instanceID: 12036}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 12046}
     - Class: 114
-      Script: {instanceID: 12004}
+      Script: {instanceID: 12062}
     - Class: 114
-      Script: {instanceID: 12010}
+      Script: {instanceID: 12068}
     - Class: 114
-      Script: {instanceID: 12014}
+      Script: {instanceID: 12072}
     - Class: 114
-      Script: {instanceID: 12018}
+      Script: {instanceID: 12076}
     - Class: 114
-      Script: {instanceID: 12034}
+      Script: {instanceID: 12092}
     - Class: 114
-      Script: {instanceID: 12098}
+      Script: {instanceID: 12156}
     - Class: 114
-      Script: {instanceID: 12130}
+      Script: {instanceID: 12188}
     - Class: 114
-      Script: {instanceID: 12138}
+      Script: {instanceID: 12196}
     - Class: 114
-      Script: {instanceID: 12300}
+      Script: {instanceID: 12358}
     - Class: 114
-      Script: {instanceID: 12324}
+      Script: {instanceID: 12382}
     - Class: 114
-      Script: {instanceID: 12402}
+      Script: {instanceID: 12460}
     - Class: 114
-      Script: {instanceID: 12518}
+      Script: {instanceID: 12576}
     - Class: 114
-      Script: {instanceID: 12678}
+      Script: {instanceID: 12628}
     - Class: 114
-      Script: {instanceID: 12704}
+      Script: {instanceID: 12738}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 12764}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 12856}
     - Class: 114
-      Script: {instanceID: 12902}
+      Script: {instanceID: 12952}
     - Class: 114
-      Script: {instanceID: 12956}
+      Script: {instanceID: 12962}
     - Class: 114
-      Script: {instanceID: 12960}
+      Script: {instanceID: 13016}
     - Class: 114
-      Script: {instanceID: 12978}
+      Script: {instanceID: 13020}
     - Class: 114
-      Script: {instanceID: 12992}
+      Script: {instanceID: 13038}
     - Class: 114
-      Script: {instanceID: 13082}
+      Script: {instanceID: 13052}
     - Class: 114
-      Script: {instanceID: 13086}
+      Script: {instanceID: 13142}
     - Class: 114
-      Script: {instanceID: 13236}
+      Script: {instanceID: 13146}
     - Class: 114
-      Script: {instanceID: 13322}
+      Script: {instanceID: 13296}
     - Class: 114
-      Script: {instanceID: 13328}
+      Script: {instanceID: 13382}
     - Class: 114
-      Script: {instanceID: 13390}
+      Script: {instanceID: 13388}
     - Class: 114
-      Script: {instanceID: 13434}
+      Script: {instanceID: 13450}
     - Class: 114
-      Script: {instanceID: 13486}
+      Script: {instanceID: 13494}
     - Class: 114
       Script: {instanceID: 13546}
     - Class: 114
-      Script: {instanceID: 13680}
+      Script: {instanceID: 13606}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 13740}
     - Class: 114
-      Script: {instanceID: 13872}
+      Script: {instanceID: 13782}
     - Class: 114
-      Script: {instanceID: 13926}
+      Script: {instanceID: 13896}
+    - Class: 114
+      Script: {instanceID: 13934}
+    - Class: 114
+      Script: {instanceID: 13988}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -484,7 +490,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 3b61eab118a9025d43ef6e07e6148928
+      Hash: cbeba0be93684d3bcd4b72542d830f58
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager
@@ -532,7 +538,7 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 0fd755275760f09e8a56fc6988c104dd
+      Hash: 45796d4de87ae12887bc6754062a68bb
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.HelloAR
     className: HelloARController
@@ -650,6 +656,12 @@ ScriptsOnlyBuild:
     assemblyName: DOTween.dll
     namespaceName: DG.Tweening.Core
     className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
+      Hash: c302a71f2e47eaef0a5d07f2e1a934e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AboutPanel
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -814,7 +826,7 @@ ScriptsOnlyBuild:
     className: ARCoreSessionConfig
   - hash:
       serializedVersion: 2
-      Hash: 444f61cd3c41f97c6809c395be5e2872
+      Hash: d5efb6af407afdef0677d435bcc2b3ef
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AppController
@@ -952,7 +964,7 @@ ScriptsOnlyBuild:
     className: NetworkAnimator
   - hash:
       serializedVersion: 2
-      Hash: cc67160c6da96e361e99eb659e622973
+      Hash: d3d72c466ab8336cfc24defdb55e1817
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjManipulator
@@ -974,6 +986,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: f1ec5cfd5be74b46472035222191d31f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TutorialPanel
   - hash:
       serializedVersion: 2
       Hash: a6be390312032ba0856f81fc3c448644
@@ -1091,4 +1109,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
-  playerPath: C:/Users/Willian Matheus/Desktop/Challenge-Everis/Projetos/Builds/Darwin-WIP-20200921.apk
+  playerPath: C:/Users/Willian Matheus/Desktop/Challenge-Everis/Projetos/Builds/Darwin-WIP-20200925.apk
