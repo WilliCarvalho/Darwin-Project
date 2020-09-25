@@ -38,8 +38,7 @@ PrefabInstance:
         type: 3}
       propertyPath: categoryImageSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 579ec95c8044cd84bb2e575f04d7ae39,
-        type: 3}
+      objectReference: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 636746439554828302, guid: 7e06ab5805547b64bb99939cbd85c3b9,
         type: 3}
       propertyPath: subOptionsList.Array.data[0]

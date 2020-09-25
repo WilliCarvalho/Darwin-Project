@@ -38,6 +38,7 @@ namespace GoogleARCore.Examples.HelloAR
     {
         private AppController appControllerInstance;
         [HideInInspector] public GameObject _gameObject;
+        public GameObject tutorial_B_Panel;
         /// <summary>
         /// The first-person camera being used to render the passthrough camera image (i.e. AR
         /// background).
@@ -157,6 +158,11 @@ namespace GoogleARCore.Examples.HelloAR
 
                     // Make game object a child of the anchor.
                     _gameObject.transform.parent = anchor.transform;
+                    if (PlayerPrefs.GetInt("TUTORIAL_B") == 0)
+                    {
+                        tutorial_B_Panel.SetActive(true);
+                        PlayerPrefs.SetInt("TUTORIAL_B", 1);
+                    }
                 }
             }
         }

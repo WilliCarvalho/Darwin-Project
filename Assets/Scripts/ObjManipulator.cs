@@ -87,7 +87,7 @@ public class ObjManipulator : MonoBehaviour
 
         if (isScaling)
         {
-            float scaleValue = 0.02f * Time.deltaTime;
+            float scaleValue = 0.1f * Time.deltaTime;
             if (startDistance > Vector2.Distance(touch0Pos, touch1Pos))
             {
                 //scale down
@@ -202,7 +202,7 @@ public class ObjManipulator : MonoBehaviour
     IEnumerator SelectTime()
     {
         canSelect = true;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.25f);
         canSelect = false;
     }
 

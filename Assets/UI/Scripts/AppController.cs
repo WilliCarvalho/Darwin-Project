@@ -89,6 +89,7 @@ public class AppController : MonoBehaviour
                 Invoke("DestroyOldDropMenuItens", 0.45f);
                 Destroy(currentObjectMesh, 0.45f);
                 gameScreen = GameScreen.subOptionsMenu;
+                FindObjectOfType<SoundManager>().Play_1();
                 subOptionsMenu.gameObject.SetActive(true);
                 subOptionsMenu.DOAnchorPosX(0, 0.5f);
                 objectViewMenu.DOAnchorPosX(-2000, 0.5f);
@@ -118,6 +119,12 @@ public class AppController : MonoBehaviour
         objectViewMenu.gameObject.SetActive(true);
         subOptionsMenu.DOAnchorPosX(2000, 0.5f);
         objectViewMenu.DOAnchorPosX(0, 0.5f);
+        if (PlayerPrefs.GetInt("TUTORIAL_A") == 0)
+        {
+            tutorial_A_Panel.SetActive(true);
+            PlayerPrefs.SetInt("TUTORIAL_A", 1);
+        }
+        FindObjectOfType<SoundManager>().Play_2();
         StartCoroutine(DeactivateScreenWithDelay(subOptionsMenu.gameObject));
         objectViewScreenName.text = objName;
         detectedPlaneGenerator.instPlaneObj.SetActive(true);
@@ -125,7 +132,7 @@ public class AppController : MonoBehaviour
     }
 
     #endregion
-
+    public GameObject tutorial_A_Panel;
 
 
     private void DestroyOldSubOptionsButtons()
@@ -246,7 +253,6 @@ public class AppController : MonoBehaviour
     {
         FindObjectOfType<ObjManipulator>().GoBack();
         StartCoroutine(QuizTranstition());
-        FindObjectOfType<SoundManager>().Play_2();
         canSelectObjPart = false;
     }
 
@@ -293,7 +299,6 @@ public class AppController : MonoBehaviour
         questionIndex = finalQuestionIndex;
         ClosePausedPanel();
         StartCoroutine(QuizTranstition());
-        FindObjectOfType<SoundManager>().Play_1();
         canSelectObjPart = true;
     }
 

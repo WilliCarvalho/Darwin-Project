@@ -44,8 +44,7 @@ PrefabInstance:
         type: 3}
       propertyPath: categoryImageSprite
       value: 
-      objectReference: {fileID: 21300000, guid: fb98f0dfeaea1024dbcd1bb9275a9998,
-        type: 3}
+      objectReference: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 636746439554828302, guid: 7e06ab5805547b64bb99939cbd85c3b9,
         type: 3}
       propertyPath: subOptionsList.Array.data[0]
@@ -61,7 +60,7 @@ PrefabInstance:
     - target: {fileID: 636746439554828304, guid: 7e06ab5805547b64bb99939cbd85c3b9,
         type: 3}
       propertyPath: m_Name
-      value: TwoColorCategory
+      value: MicroorganismCategory
       objectReference: {fileID: 0}
     - target: {fileID: 636746439554828307, guid: 7e06ab5805547b64bb99939cbd85c3b9,
         type: 3}
