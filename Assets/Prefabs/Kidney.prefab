@@ -57,8 +57,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tittle: Renal arteries
   info:
-  - The artery that vascularizes the kidney. There are two, one for each kidney that
-    is born from the aortic artery and goes to the kidney through its hilum.
+  - The artery that vascularizes the kidney. There are two, one for each kidney start
+    from the aortic artery and goes to the kidney through its hilum.
 --- !u!65 &3516563750176609085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ MonoBehaviour:
   tittle: Renal vein
   info:
   - The function of the renal vein is to receive the blood after filtration carried
-    out by the kidney and drain it into the inferior vena cava system.
+    out by the kidney and drain into the inferior vena cava system.
 --- !u!1 &8395755421808299825
 GameObject:
   m_ObjectHideFlags: 0

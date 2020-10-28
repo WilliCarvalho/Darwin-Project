@@ -50,7 +50,7 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].question
-      value: Kidney is what?
+      value: ' What the Kidney is?'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -75,8 +75,8 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].question
-      value: 'When you drink little water, crystals can form. This problem is known
-        as:'
+      value: 'when you don''t drink enough water, crystals can form. This problem
+        is known as:'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}

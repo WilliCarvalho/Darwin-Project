@@ -60,7 +60,7 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[0]
-      value: 'Four cavities: two atria and two ventricles.'
+      value: 'Four cavities: two atrium and two ventricles.'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
