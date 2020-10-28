@@ -50,8 +50,8 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].question
-      value: "Nos pulm\xF5es, existe uma estrutura chamada de hilo. Marque a alternativa
-        que melhor explica o que \xE9 essa estrutura:"
+      value: 'In the lungs, there is a structure called hilum. Check the alternative
+        that best explains what this structure is:'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -61,12 +61,12 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[0]
-      value: "Hilo \xE9 o local onde acontece a hematose."
+      value: Hilo is the place where hematosis occurs.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[1]
-      value: "Hilo \xE9 sin\xF4nimo de alv\xE9olos pulmonares."
+      value: Hilo is synonymous with pulmonary alveoli.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -76,8 +76,8 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].question
-      value: "Qual \xE9 a membrana que reveste internamente a caixa tor\xE1cica e
-        externamente os pulm\xF5es?"
+      value: What is the membrane that lines the rib cage internally and the lungs
+        externally?
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -87,7 +87,7 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[0]
-      value: "c\xE1psula pulmonar."
+      value: pulmonary capsule.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -97,7 +97,7 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[2]
-      value: "peric\xE1rdio."
+      value: pericardium.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -124,7 +124,7 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[2]
-      value: "Hilo \xE9 o local por onde os br\xF4nquios penetram."
+      value: Hilo is the place where the bronchi penetrates.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -350,7 +350,7 @@ PrefabInstance:
     - target: {fileID: 4402185415162707315, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: m_Name
-      value: Pulmao
+      value: Pulmao_Quiz
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515b031cf3a43e44acdef8c69e840b0, type: 3}

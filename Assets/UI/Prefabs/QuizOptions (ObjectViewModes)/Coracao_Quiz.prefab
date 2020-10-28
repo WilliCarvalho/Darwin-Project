@@ -50,8 +50,7 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].question
-      value: "O cora\xE7\xE3o dos humanos \xE9 como o cora\xE7\xE3o de todos os mam\xEDferos
-        e possui:"
+      value: 'The human heart is like the heart of all mammals and has:'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -61,12 +60,12 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[0]
-      value: "quatro cavidades: dois \xE1trios e dois ventr\xEDculos."
+      value: 'Four cavities: two atria and two ventricles.'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[1]
-      value: "quatro cavidades: um \xE1trio e tr\xEAs ventr\xEDculos."
+      value: 'Four cavities: an atrium and three ventricles.'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -76,8 +75,8 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].question
-      value: "Na circula\xE7\xE3o dos mam\xEDferos, o cora\xE7\xE3o contrai e relaxa
-        ritmicamente. Entre as afirmativas abaixo, \xE9 correto afirmar:"
+      value: 'In the circulation of mammals, the heart contracts and relaxes rhythmically.
+        Among the statements below, it is correct to state:'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -87,18 +86,18 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[0]
-      value: "A art\xE9ria pulmonar leva sangue do pulm\xE3o para o cora\xE7\xE3o."
+      value: The pulmonary artery carries blood from the lung to the heart.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[1]
-      value: "As veias cavas entram no lado direito do cora\xE7\xE3o."
+      value: The vena cava enters the right side of the heart.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[1].answers.Array.data[2]
-      value: "O sangue vai do cora\xE7\xE3o ao pulm\xE3o e volta para o cora\xE7\xE3o,
-        na grande circula\xE7\xE3o."
+      value: The blood goes from the heart to the lung and back to the heart, in
+        the great circulation.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -108,9 +107,9 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].question
-      value: "O cora\xE7\xE3o realiza contra\xE7\xF5es r\xEDtmicas que garantem que
-        o sangue seja impulsionado pelo corpo. Quando ocorre a contra\xE7\xE3o da
-        c\xE2mera card\xEDaca, denominamos o movimento de"
+      value: The heart performs rhythmic contractions that ensure that the blood
+        is propelled by the body. When contraction of the cardiac camera occurs,
+        we call the movement of
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -120,12 +119,12 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].answers.Array.data[0]
-      value: "s\xEDstole."
+      value: systole.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[0].answers.Array.data[2]
-      value: "tr\xEAs cavidades: um \xE1trio e dois ventr\xEDculos"
+      value: 'Three cavities: an atrium and two ventricles.'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -135,12 +134,12 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].answers.Array.data[1]
-      value: "perist\xE1ltico."
+      value: peristaltic.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[2].answers.Array.data[2]
-      value: "di\xE1stole."
+      value: diastole.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -150,9 +149,9 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[3].question
-      value: "Cada \xE1trio comunica-se com o ventr\xEDculo por meio de um orif\xEDcio
-        que cont\xE9m uma valva que impede o retorno de sangue de uma cavidade para
-        outra. O nome dessa valva \xE9:"
+      value: 'Each atrium communicates with the ventricle through an orifice that
+        contains a valve that prevents blood from returning from one cavity to another.
+        The name of this valve is:'
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -167,7 +166,7 @@ PrefabInstance:
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: questionList.Array.data[3].answers.Array.data[1]
-      value: pulmonar.
+      value: pulmonary.
       objectReference: {fileID: 0}
     - target: {fileID: 3255340800897645659, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
@@ -347,7 +346,7 @@ PrefabInstance:
     - target: {fileID: 4402185415162707315, guid: 2515b031cf3a43e44acdef8c69e840b0,
         type: 3}
       propertyPath: m_Name
-      value: Coracao
+      value: Coracao_Quiz
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515b031cf3a43e44acdef8c69e840b0, type: 3}

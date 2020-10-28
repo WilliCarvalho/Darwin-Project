@@ -73,12 +73,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: "Alv\xE9olos"
+  tittle: Alveoli
   info:
-  - "Os alv\xE9olos pulmonares s\xE3o min\xFAsculos sacos a\xE9reos, presentes nos
-    pulm\xF5es."
-  - "envolvidos por capilares sangu\xEDneos e uma fina membrana. Eles tem a fun\xE7\xE3o
-    de fazer a troca de gases com o sangue."
+  - The pulmonary alveoli are tiny air sacs present in the lungs.
+  - Surrounded by blood capillaries and a thin membrane. They have the function of
+    exchanging gases with the blood.
 --- !u!65 &3524468589677893946
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104,11 +103,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: "Pulm\xE3o"
+  tittle: Lung
   info:
-  - "O pulm\xE3o \xE9 o \xF3rg\xE3o do sistema respirat\xF3rio, respons\xE1vel pelas
-    trocas gasosas entre o ambiente e o sangue. Sua principal fun\xE7\xE3o \xE9 oxigenar
-    o sangue e eliminar o di\xF3xido de carbono do corpo."
+  - The lung is the organ of the respiratory system, responsible for gas exchange
+    between the environment and the blood. Its main function is to oxygenate the
+    blood and eliminate carbon dioxide from the body.
 --- !u!1 &7596735721852341214
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,12 +249,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Traqueia
+  tittle: Trachea
   info:
-  - "A traqueia \xE9 o principal org\xE3o responsavel por encaminhar o ar inspirado
-    at\xE9 o pulm\xE3o."
-  - "\xC9 o tubo cartilaginoso e membranoso, localizado entre a laringe"
-  - "e dois tubos curtos, os br\xF4nquios, fortalecido por an\xE9is de cartilagem."
+  - The trachea is the main organ responsible for directing the inspired air to the
+    lung.
+  - It is the cartilaginous and membranous tube, located between the larynx
+  - And two short tubes, the bronchi, strengthened by cartilage rings.
 --- !u!65 &6319222949556878351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -281,12 +280,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: "Alv\xE9olos"
+  tittle: Alveoli
   info:
-  - "Os alv\xE9olos pulmonares s\xE3o min\xFAsculos sacos a\xE9reos, presentes nos
-    pulm\xF5es."
-  - "envolvidos por capilares sangu\xEDneos e uma fina membrana. Eles tem a fun\xE7\xE3o
-    de fazer a troca de gases com o sangue."
+  - The pulmonary alveoli are tiny air sacs present in the lungs.
+  - Surrounded by blood capillaries and a thin membrane. They have the function of
+    exchanging gases with the blood.
 --- !u!1001 &151933535561189962
 PrefabInstance:
   m_ObjectHideFlags: 0

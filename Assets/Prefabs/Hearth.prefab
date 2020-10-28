@@ -25,7 +25,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Ventriculo Esquerdo
+  tittle: Left Ventricle
   info: []
 --- !u!1 &567798194739700475
 GameObject:
@@ -103,12 +103,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Atrio Esquerdo
+  tittle: Left Atrium
   info:
-  - "\xC9 respons\xE1vel por coletar o sangue oxigenado que volta ao cora\xE7\xE3o
-    pelas veias pulmonares."
-  - "Passa o volume sangu\xEDneo ao ventr\xEDculo esquerdo, no momento em que o \xE1trio
-    se contrai e a valva mitral se abre."
+  - It is responsible for collecting the oxygenated blood that returns to the heart
+    through the pulmonary veins.
+  - The blood volume passes to the left ventricle, at the moment when the atrium
+    contracts and the mitral valve opens.
 --- !u!65 &1549103482092789180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -134,11 +134,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: "Art\xE9ria pulmonar"
+  tittle: Pulmonary artery
   info:
-  - "O tronco da art\xE9ria pulmonar \xE9 a origem da Pequena circula\xE7\xE3o|circula\xE7\xE3o
-    pulmonar. Se origina do ventr\xEDculo direito do cora\xE7\xE3o, de quem recebe
-    o (sangue venoso) que deve ser dirigido aos (pulm\xF5es) para oxigena\xE7\xE3o."
+  - The pulmonary artery trunk is the origin of the Small circulation | pulmonary
+    circulation. It originates from the right ventricle of the heart, from which
+    receives the venous blood) that must be directed to the lungs for oxygenation.
 --- !u!1 &1373476824688523953
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,15 +201,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: "Art\xE9ria Aorta"
+  tittle: Aorta artery
   info:
-  - "Aorta \xE9 a maior e mais importante art\xE9ria de todo o sistema circulat\xF3rio
-    do corpo humano."
-  - "A aorta se inicia no cora\xE7\xE3o, na base do ventr\xEDculo esquerdo, "
-  - "e termina \xE0 altura da quarta v\xE9rtebra lombar, onde se divide nas art\xE9rias
-    il\xEDacas comuns."
-  - "Ela leva sangue oxigenado para todas partes do corpo atrav\xE9s da circula\xE7\xE3o
-    sist\xEAmica."
+  - The aorta is the largest and most important artery in the entire circulatory
+    system of the human body.
+  - The aorta starts at the heart, at the base of the left ventricle.
+  - And ends at the fourth lumbar vertebra, where it divides into the common iliac
+    arteries.
+  - It carries oxygenated blood to all parts of the body through the systemic circulation.
 --- !u!65 &163003412344409324
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -235,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Bomba Ventriculos
+  tittle: Ventricle Pump
   info: []
 --- !u!65 &8531154937702603072
 BoxCollider:
@@ -378,10 +377,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Atrio Direito
+  tittle: Right Atrium
   info:
-  - 'Recebe fluxo venoso desoxigenado das: veias cava inferior e superior,'
-  - "do seio coron\xE1rio, e das veias card\xEDacas anteriores e menores"
+  - Receives deoxygenated venous flow from the inferior and superior vena cava.
+  - The coronary sinus, and the anterior and minor cardiac veins.
 --- !u!1 &5162315972557831552
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cddbb033932514f83a6809c2af9cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tittle: Ventriculo Direito
+  tittle: Right Ventricle
   info: []
 --- !u!1 &6598692103726596714
 GameObject:
@@ -488,7 +487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8528184383903351584
 Transform:
   m_ObjectHideFlags: 0
@@ -777,7 +776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1651268901876511359
 Transform:
   m_ObjectHideFlags: 0

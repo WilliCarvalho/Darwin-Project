@@ -87,6 +87,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7380222315938121466, guid: 7a23dea397b40c2428f94e0053021cdc,
         type: 3}
+    - target: {fileID: 1638866908729687689, guid: b13079e6f7789374ca38c65a3a9c40da,
+        type: 3}
+      propertyPath: objName
+      value: Hearth
+      objectReference: {fileID: 0}
     - target: {fileID: 1638866908729687692, guid: b13079e6f7789374ca38c65a3a9c40da,
         type: 3}
       propertyPath: m_LocalPosition.x

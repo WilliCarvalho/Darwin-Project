@@ -7317,7 +7317,7 @@ PrefabInstance:
     - target: {fileID: 4258311129544405794, guid: 27170b49a2b14ea44b40f9160a3a4211,
         type: 3}
       propertyPath: categoryName
-      value: Corpo Humano
+      value: Human Body
       objectReference: {fileID: 0}
     - target: {fileID: 4258311129544405794, guid: 27170b49a2b14ea44b40f9160a3a4211,
         type: 3}
@@ -10546,7 +10546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "In\xEDcio"
+  m_Text: Home
 --- !u!222 &3953340399906797001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11066,7 +11066,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Sele\xE7\xE3o"
+  m_Text: selection
 --- !u!222 &3953340400131834742
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11825,7 +11825,7 @@ PrefabInstance:
     - target: {fileID: 4258311129544405794, guid: df302d00a09143148be2224ad7e6a3b0,
         type: 3}
       propertyPath: categoryName
-      value: Micro-organismos
+      value: Microorganisms
       objectReference: {fileID: 0}
     - target: {fileID: 4258311129544405795, guid: df302d00a09143148be2224ad7e6a3b0,
         type: 3}

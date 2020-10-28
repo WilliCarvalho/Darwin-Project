@@ -26,7 +26,7 @@ PrefabInstance:
     - target: {fileID: 636746439554828302, guid: 7e06ab5805547b64bb99939cbd85c3b9,
         type: 3}
       propertyPath: categoryName
-      value: Corpo-Humano
+      value: Human Body
       objectReference: {fileID: 0}
     - target: {fileID: 636746439554828302, guid: 7e06ab5805547b64bb99939cbd85c3b9,
         type: 3}
